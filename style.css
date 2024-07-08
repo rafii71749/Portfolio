@@ -36,6 +36,14 @@ nav li a{
     color: white;
     margin-right: 35px;
 }
+.btn:hover{
+    transition: 0.5s;
+    border-radius: 6px;
+    color: #065D56;
+    background: transparent;
+    border: #065D56;
+    border-color: #065D56;
+}
 header{
     background-image: url(photo/circle.png);
     background-size: 1300px;
@@ -67,6 +75,41 @@ p{
     width: 450px;
     padding-right: 400px;
 }
-.hrz{
+
+/*Section 1*/
+
+.section-title{
+    font-size: 30px;
     color: #065D56;
+}
+.section{
+    text-align: center;
+    padding: 150px 200px;
+    background-color: #ecfcf2;
+    border-radius: 10px;
+}
+.about-items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.item-des{
+    font-weight: bold;
+    justify-content: space-;
+    color: #065D56;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* Section 2*/
+
+.section-2{
+    text-align: center;
 }
